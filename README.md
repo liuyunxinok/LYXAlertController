@@ -2,7 +2,7 @@
 为解决UIAlertController的UI（字体颜色，action背景色,字体大小等）设置局限，故自己封装一个YXAlertController，可以随意进行颜色和字体设置。样式大小，title和message的行距缩进与系统样式保持一致。
 示例：
 
-![YXAlertController-alert.png](http://upload-images.jianshu.io/upload_images/2962939-f7ca44b32210bdd6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![YXAlertController-alert.png](http://upload-images.jianshu.io/upload_images/2962939-82c32c80cdc50102.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![YXAlertController-actionSheet.png](http://upload-images.jianshu.io/upload_images/2962939-971711396d0a3a1a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ## 一、集成方式：
