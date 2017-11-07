@@ -4,7 +4,7 @@
 
 ![YXAlertController-alert.png](http://upload-images.jianshu.io/upload_images/2962939-82c32c80cdc50102.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![YXAlertController-actionSheet.png](http://upload-images.jianshu.io/upload_images/2962939-971711396d0a3a1a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![YXAlertController-actionSheet.png](http://upload-images.jianshu.io/upload_images/2962939-bd9f4f7cd5d2ff51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ## 一、集成方式：
 1.可以下载下来把YXCustomAlert文件夹拖进项目中
 2.可以用cocoaPods
