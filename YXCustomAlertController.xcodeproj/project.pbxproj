@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8530125F1FAC400B00D55F88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8530125E1FAC400B00D55F88 /* AppDelegate.m */; };
+		853012621FAC400B00D55F88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853012611FAC400B00D55F88 /* ViewController.m */; };
+		853012651FAC400B00D55F88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853012631FAC400B00D55F88 /* Main.storyboard */; };
+		853012671FAC400B00D55F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853012661FAC400B00D55F88 /* Assets.xcassets */; };
+		8530126A1FAC400B00D55F88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853012681FAC400B00D55F88 /* LaunchScreen.storyboard */; };
+		8530126D1FAC400B00D55F88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8530126C1FAC400B00D55F88 /* main.m */; };
+		853012771FAC400C00D55F88 /* YXCustomAlertControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 853012761FAC400C00D55F88 /* YXCustomAlertControllerTests.m */; };
+		853012821FAC400C00D55F88 /* YXCustomAlertControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 853012811FAC400C00D55F88 /* YXCustomAlertControllerUITests.m */; };
+		853012921FAC410E00D55F88 /* YXAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853012911FAC410E00D55F88 /* YXAlertController.m */; };
+		853012951FAC42E800D55F88 /* YXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 853012941FAC42E800D55F88 /* YXAlertAction.m */; };
+		853012981FAC49BB00D55F88 /* YXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 853012971FAC49BB00D55F88 /* YXAlertView.m */; };
+		8530129B1FAC4AD400D55F88 /* UIView+Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8530129A1FAC4AD400D55F88 /* UIView+Edge.m */; };
+		856858B11FB154050025EF73 /* YXAlertLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 856858B01FB154050025EF73 /* YXAlertLayout.m */; };
+		857A5A9B1FAFFF9000E81911 /* YXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 857A5A9A1FAFFF9000E81911 /* YXTableViewCell.m */; };
+		857A5A9E1FB04EC300E81911 /* NSString+lineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 857A5A9D1FB04EC300E81911 /* NSString+lineSpace.m */; };
+		857A5AA11FB0627100E81911 /* YXActionSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 857A5AA01FB0627100E81911 /* YXActionSheetView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		853012731FAC400B00D55F88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853012521FAC400B00D55F88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853012591FAC400B00D55F88;
+			remoteInfo = YXCustomAlertController;
+		};
+		8530127E1FAC400C00D55F88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853012521FAC400B00D55F88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853012591FAC400B00D55F88;
+			remoteInfo = YXCustomAlertController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8530125A1FAC400B00D55F88 /* YXCustomAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXCustomAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8530125D1FAC400B00D55F88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8530125E1FAC400B00D55F88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		853012601FAC400B00D55F88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		853012611FAC400B00D55F88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		853012641FAC400B00D55F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		853012661FAC400B00D55F88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		853012691FAC400B00D55F88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8530126B1FAC400B00D55F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8530126C1FAC400B00D55F88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		853012721FAC400B00D55F88 /* YXCustomAlertControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXCustomAlertControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853012761FAC400C00D55F88 /* YXCustomAlertControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXCustomAlertControllerTests.m; sourceTree = "<group>"; };
+		853012781FAC400C00D55F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8530127D1FAC400C00D55F88 /* YXCustomAlertControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YXCustomAlertControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853012811FAC400C00D55F88 /* YXCustomAlertControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXCustomAlertControllerUITests.m; sourceTree = "<group>"; };
+		853012831FAC400C00D55F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853012901FAC410E00D55F88 /* YXAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXAlertController.h; sourceTree = "<group>"; };
+		853012911FAC410E00D55F88 /* YXAlertController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXAlertController.m; sourceTree = "<group>"; };
+		853012931FAC42E800D55F88 /* YXAlertAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXAlertAction.h; sourceTree = "<group>"; };
+		853012941FAC42E800D55F88 /* YXAlertAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXAlertAction.m; sourceTree = "<group>"; };
+		853012961FAC49BB00D55F88 /* YXAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXAlertView.h; sourceTree = "<group>"; };
+		853012971FAC49BB00D55F88 /* YXAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXAlertView.m; sourceTree = "<group>"; };
+		853012991FAC4AD400D55F88 /* UIView+Edge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Edge.h"; sourceTree = "<group>"; };
+		8530129A1FAC4AD400D55F88 /* UIView+Edge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Edge.m"; sourceTree = "<group>"; };
+		856858AF1FB154050025EF73 /* YXAlertLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXAlertLayout.h; sourceTree = "<group>"; };
+		856858B01FB154050025EF73 /* YXAlertLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXAlertLayout.m; sourceTree = "<group>"; };
+		857A5A991FAFFF9000E81911 /* YXTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXTableViewCell.h; sourceTree = "<group>"; };
+		857A5A9A1FAFFF9000E81911 /* YXTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXTableViewCell.m; sourceTree = "<group>"; };
+		857A5A9C1FB04EC300E81911 /* NSString+lineSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+lineSpace.h"; sourceTree = "<group>"; };
+		857A5A9D1FB04EC300E81911 /* NSString+lineSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+lineSpace.m"; sourceTree = "<group>"; };
+		857A5A9F1FB0627100E81911 /* YXActionSheetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXActionSheetView.h; sourceTree = "<group>"; };
+		857A5AA01FB0627100E81911 /* YXActionSheetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXActionSheetView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		853012571FAC400B00D55F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8530126F1FAC400B00D55F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8530127A1FAC400C00D55F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		853012511FAC400B00D55F88 = {
+			isa = PBXGroup;
+			children = (
+				8530125C1FAC400B00D55F88 /* YXCustomAlertController */,
+				853012751FAC400B00D55F88 /* YXCustomAlertControllerTests */,
+				853012801FAC400C00D55F88 /* YXCustomAlertControllerUITests */,
+				8530125B1FAC400B00D55F88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8530125B1FAC400B00D55F88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8530125A1FAC400B00D55F88 /* YXCustomAlertController.app */,
+				853012721FAC400B00D55F88 /* YXCustomAlertControllerTests.xctest */,
+				8530127D1FAC400C00D55F88 /* YXCustomAlertControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8530125C1FAC400B00D55F88 /* YXCustomAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				8530128F1FAC402000D55F88 /* YXCustomAlert */,
+				8530125D1FAC400B00D55F88 /* AppDelegate.h */,
+				8530125E1FAC400B00D55F88 /* AppDelegate.m */,
+				853012601FAC400B00D55F88 /* ViewController.h */,
+				853012611FAC400B00D55F88 /* ViewController.m */,
+				853012631FAC400B00D55F88 /* Main.storyboard */,
+				853012661FAC400B00D55F88 /* Assets.xcassets */,
+				853012681FAC400B00D55F88 /* LaunchScreen.storyboard */,
+				8530126B1FAC400B00D55F88 /* Info.plist */,
+				8530126C1FAC400B00D55F88 /* main.m */,
+			);
+			path = YXCustomAlertController;
+			sourceTree = "<group>";
+		};
+		853012751FAC400B00D55F88 /* YXCustomAlertControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				853012761FAC400C00D55F88 /* YXCustomAlertControllerTests.m */,
+				853012781FAC400C00D55F88 /* Info.plist */,
+			);
+			path = YXCustomAlertControllerTests;
+			sourceTree = "<group>";
+		};
+		853012801FAC400C00D55F88 /* YXCustomAlertControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				853012811FAC400C00D55F88 /* YXCustomAlertControllerUITests.m */,
+				853012831FAC400C00D55F88 /* Info.plist */,
+			);
+			path = YXCustomAlertControllerUITests;
+			sourceTree = "<group>";
+		};
+		8530128F1FAC402000D55F88 /* YXCustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				853012901FAC410E00D55F88 /* YXAlertController.h */,
+				853012911FAC410E00D55F88 /* YXAlertController.m */,
+				853012931FAC42E800D55F88 /* YXAlertAction.h */,
+				853012941FAC42E800D55F88 /* YXAlertAction.m */,
+				853012961FAC49BB00D55F88 /* YXAlertView.h */,
+				853012971FAC49BB00D55F88 /* YXAlertView.m */,
+				857A5A9F1FB0627100E81911 /* YXActionSheetView.h */,
+				857A5AA01FB0627100E81911 /* YXActionSheetView.m */,
+				857A5A991FAFFF9000E81911 /* YXTableViewCell.h */,
+				857A5A9A1FAFFF9000E81911 /* YXTableViewCell.m */,
+				856858AF1FB154050025EF73 /* YXAlertLayout.h */,
+				856858B01FB154050025EF73 /* YXAlertLayout.m */,
+				853012991FAC4AD400D55F88 /* UIView+Edge.h */,
+				8530129A1FAC4AD400D55F88 /* UIView+Edge.m */,
+				857A5A9C1FB04EC300E81911 /* NSString+lineSpace.h */,
+				857A5A9D1FB04EC300E81911 /* NSString+lineSpace.m */,
+			);
+			path = YXCustomAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		853012591FAC400B00D55F88 /* YXCustomAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853012861FAC400C00D55F88 /* Build configuration list for PBXNativeTarget "YXCustomAlertController" */;
+			buildPhases = (
+				853012561FAC400B00D55F88 /* Sources */,
+				853012571FAC400B00D55F88 /* Frameworks */,
+				853012581FAC400B00D55F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YXCustomAlertController;
+			productName = YXCustomAlertController;
+			productReference = 8530125A1FAC400B00D55F88 /* YXCustomAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853012711FAC400B00D55F88 /* YXCustomAlertControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853012891FAC400C00D55F88 /* Build configuration list for PBXNativeTarget "YXCustomAlertControllerTests" */;
+			buildPhases = (
+				8530126E1FAC400B00D55F88 /* Sources */,
+				8530126F1FAC400B00D55F88 /* Frameworks */,
+				853012701FAC400B00D55F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853012741FAC400B00D55F88 /* PBXTargetDependency */,
+			);
+			name = YXCustomAlertControllerTests;
+			productName = YXCustomAlertControllerTests;
+			productReference = 853012721FAC400B00D55F88 /* YXCustomAlertControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8530127C1FAC400C00D55F88 /* YXCustomAlertControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8530128C1FAC400C00D55F88 /* Build configuration list for PBXNativeTarget "YXCustomAlertControllerUITests" */;
+			buildPhases = (
+				853012791FAC400C00D55F88 /* Sources */,
+				8530127A1FAC400C00D55F88 /* Frameworks */,
+				8530127B1FAC400C00D55F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8530127F1FAC400C00D55F88 /* PBXTargetDependency */,
+			);
+			name = YXCustomAlertControllerUITests;
+			productName = YXCustomAlertControllerUITests;
+			productReference = 8530127D1FAC400C00D55F88 /* YXCustomAlertControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		853012521FAC400B00D55F88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = liuyunxin;
+				TargetAttributes = {
+					853012591FAC400B00D55F88 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					853012711FAC400B00D55F88 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 853012591FAC400B00D55F88;
+					};
+					8530127C1FAC400C00D55F88 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 853012591FAC400B00D55F88;
+					};
+				};
+			};
+			buildConfigurationList = 853012551FAC400B00D55F88 /* Build configuration list for PBXProject "YXCustomAlertController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 853012511FAC400B00D55F88;
+			productRefGroup = 8530125B1FAC400B00D55F88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				853012591FAC400B00D55F88 /* YXCustomAlertController */,
+				853012711FAC400B00D55F88 /* YXCustomAlertControllerTests */,
+				8530127C1FAC400C00D55F88 /* YXCustomAlertControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		853012581FAC400B00D55F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8530126A1FAC400B00D55F88 /* LaunchScreen.storyboard in Resources */,
+				853012671FAC400B00D55F88 /* Assets.xcassets in Resources */,
+				853012651FAC400B00D55F88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853012701FAC400B00D55F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8530127B1FAC400C00D55F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		853012561FAC400B00D55F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857A5A9B1FAFFF9000E81911 /* YXTableViewCell.m in Sources */,
+				857A5AA11FB0627100E81911 /* YXActionSheetView.m in Sources */,
+				856858B11FB154050025EF73 /* YXAlertLayout.m in Sources */,
+				853012621FAC400B00D55F88 /* ViewController.m in Sources */,
+				857A5A9E1FB04EC300E81911 /* NSString+lineSpace.m in Sources */,
+				8530126D1FAC400B00D55F88 /* main.m in Sources */,
+				8530125F1FAC400B00D55F88 /* AppDelegate.m in Sources */,
+				853012921FAC410E00D55F88 /* YXAlertController.m in Sources */,
+				853012981FAC49BB00D55F88 /* YXAlertView.m in Sources */,
+				853012951FAC42E800D55F88 /* YXAlertAction.m in Sources */,
+				8530129B1FAC4AD400D55F88 /* UIView+Edge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8530126E1FAC400B00D55F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853012771FAC400C00D55F88 /* YXCustomAlertControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853012791FAC400C00D55F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853012821FAC400C00D55F88 /* YXCustomAlertControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853012741FAC400B00D55F88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853012591FAC400B00D55F88 /* YXCustomAlertController */;
+			targetProxy = 853012731FAC400B00D55F88 /* PBXContainerItemProxy */;
+		};
+		8530127F1FAC400C00D55F88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853012591FAC400B00D55F88 /* YXCustomAlertController */;
+			targetProxy = 8530127E1FAC400C00D55F88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		853012631FAC400B00D55F88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853012641FAC400B00D55F88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		853012681FAC400B00D55F88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853012691FAC400B00D55F88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		853012841FAC400C00D55F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		853012851FAC400C00D55F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		853012871FAC400C00D55F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D47CZT3KBD;
+				INFOPLIST_FILE = YXCustomAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.YXCustomAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		853012881FAC400C00D55F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D47CZT3KBD;
+				INFOPLIST_FILE = YXCustomAlertController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.YXCustomAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8530128A1FAC400C00D55F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXCustomAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.YXCustomAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXCustomAlertController.app/YXCustomAlertController";
+			};
+			name = Debug;
+		};
+		8530128B1FAC400C00D55F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXCustomAlertControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.YXCustomAlertControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YXCustomAlertController.app/YXCustomAlertController";
+			};
+			name = Release;
+		};
+		8530128D1FAC400C00D55F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXCustomAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.YXCustomAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YXCustomAlertController;
+			};
+			name = Debug;
+		};
+		8530128E1FAC400C00D55F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YXCustomAlertControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.YXCustomAlertControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YXCustomAlertController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		853012551FAC400B00D55F88 /* Build configuration list for PBXProject "YXCustomAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853012841FAC400C00D55F88 /* Debug */,
+				853012851FAC400C00D55F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853012861FAC400C00D55F88 /* Build configuration list for PBXNativeTarget "YXCustomAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853012871FAC400C00D55F88 /* Debug */,
+				853012881FAC400C00D55F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853012891FAC400C00D55F88 /* Build configuration list for PBXNativeTarget "YXCustomAlertControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8530128A1FAC400C00D55F88 /* Debug */,
+				8530128B1FAC400C00D55F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8530128C1FAC400C00D55F88 /* Build configuration list for PBXNativeTarget "YXCustomAlertControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8530128D1FAC400C00D55F88 /* Debug */,
+				8530128E1FAC400C00D55F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 853012521FAC400B00D55F88 /* Project object */;
+}
