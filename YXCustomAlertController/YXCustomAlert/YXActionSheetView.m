@@ -249,7 +249,7 @@
     CGFloat headerHeight = titleY + HEIGHTSCALE(19) + (self.message.length > 0 ? HEIGHTSCALE(LABEL_MAGIRN) : 0) + titleHeight + (self.message.length > 0 ? messageHeight : 0);
     
     //按钮高度
-    CGFloat actionsHeight = self.actions.count * HEIGHTSCALE(ACTIONSHEET_ROWHEIGHT);
+    CGFloat actionsHeight = self.actions.count * ACTIONSHEET_ROWHEIGHT;
     
     if ((headerHeight + actionsHeight) > SCREEN_H - 40) {
         actionsHeight = SCREEN_H - 40 - headerHeight;
@@ -267,13 +267,13 @@
     }else{
         self.actionListView.scrollEnabled = NO;
     }
-    self.frame = CGRectMake(WIDTHSCALE(left_X), HEIGHTSCALE(SCREEN_H - headerHeight - actionsHeight - 20), WIDTHSCALE(SCREEN_W - WIDTHSCALE(left_X) * 2), headerHeight + actionsHeight);
+    self.frame = CGRectMake(WIDTHSCALE(left_X), SCREEN_H - headerHeight - actionsHeight - 20, SCREEN_W - WIDTHSCALE(left_X) * 2, headerHeight + actionsHeight);
     
     self.actionListView.frame = self.bounds;
     
     self.labelView.frame = CGRectMake(0, 0, self.width, headerHeight);
     //title
-    self.titleLabel.frame = CGRectMake(WIDTHSCALE(label_X), titleY, LABEL_WIDTH, titleHeight);
+    self.titleLabel.frame = CGRectMake(WIDTHSCALE(label_X), titleY, WIDTHSCALE(LABEL_WIDTH), titleHeight);
     //message
     self.messageLabel.frame = CGRectMake(self.titleLabel.left, self.titleLabel.bottom + (self.message.length > 0 ? HEIGHTSCALE(LABEL_MAGIRN) : 0), self.titleLabel.width, messageHeight);
     //分割线

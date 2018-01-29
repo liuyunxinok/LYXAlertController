@@ -26,7 +26,7 @@
         if (type == YXTableViewCellStyleAlert) {
             self.contentView.frame = CGRectMake(0, 0, WIDTHSCALE(270), 44.0);
         }else{
-            self.contentView.frame = CGRectMake(0, 0, WIDTHSCALE(SCREEN_W - left_X * 2), 57.0);
+            self.contentView.frame = CGRectMake(0, 0, SCREEN_W - left_X * 2, 57.0);
         }
         [self createUI];
     }
