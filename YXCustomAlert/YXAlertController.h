@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 #import "YXAlertAction.h"
-
 #import "YXAlertLayout.h"
 
 typedef NS_ENUM(NSInteger, YXAlertControllerStyle) {

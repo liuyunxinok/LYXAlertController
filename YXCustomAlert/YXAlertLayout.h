@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "UIView+Edge.h"
+
 typedef NS_ENUM(NSInteger,YXAlertLayoutStyle){
     YXAlertLayoutStyleAlert = 0,
     YXAlertLayoutStyleActionSheet
