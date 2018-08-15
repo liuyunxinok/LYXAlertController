@@ -6,8 +6,8 @@
 
 ![YXAlertController-actionSheet.png](http://upload-images.jianshu.io/upload_images/2962939-bd9f4f7cd5d2ff51.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ## 一、集成方式：
-1.可以下载下来把YXCustomAlert文件夹拖进项目中
-2.可以用cocoaPods
+#### 1.可以下载下来把YXCustomAlert文件夹拖进项目中
+#### 2.可以用cocoaPods
 ## 二、使用
 ### 1.导入头文件 #import "YXAlertController.h"
 ### 2.创建alertController跟UIAlertController的创建方式一样，支持alert和actionSheet,下面拿alert举例：
