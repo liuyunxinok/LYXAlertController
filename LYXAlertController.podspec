@@ -18,7 +18,7 @@ s.source       = { :git => "https://github.com/liuyunxin2014/YXAlertController.g
 ## 待测试通过完成后我们再发布指定release版本，使用如下方式
 #s.source       = { :git => "https://github.com/liuyunxin2014/LYXAlertController.git", :tag => s.version }
 
-s.platform     = :ios, "5.0"          #支持的平台及版本，5.0
+s.platform     = :ios, "6.0"          #支持的平台及版本，6.0
 s.requires_arc = true                 #是否使用ARC
 
 s.source_files  = "YXCustomAlert/**/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
