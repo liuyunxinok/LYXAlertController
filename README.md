@@ -20,7 +20,7 @@
 	YXAlertAction *done = [YXAlertAction actionWithTitle:@"赞一个" style:2 handler:^(YXAlertAction * _Nonnull action) {
 	NSLog(@"custom:点击了确定");
 	}];
-### 3.YXAlertCotroller 有一个layout属性，修改可以进行UI设置，已达到预期的样式。
+### 3.YXAlertCotroller 有一个layout属性，修改可以进行UI设置，以达到预期的样式。
 	@property (nonatomic, strong, nonnull) YXAlertLayout *layout;
 
 	//自定义颜色设置
