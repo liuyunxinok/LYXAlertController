@@ -10,7 +10,7 @@
 #### 2.可以用cocoaPods
                 pod 'LYXAlertController' 
 ## 二、使用
-### 1.导入头文件 #import "YXAlertController.h"
+### 1.导入头文件 #import <YXAlertController.h>
 ### 2.创建alertController跟UIAlertController的创建方式一样，支持alert和actionSheet,下面拿alert举例：
 	YXAlertController *alertController = [YXAlertController alertControllerWithTitle:@"爱尔兰雪、土耳其蓝、莫斯科眼泪。我都收藏在小小的太阳里、还有晴天和微笑。波斯湾海、维也纳厅、阿拉伯传说。我都纪念在厚厚的相集里。还有七粉和公主" message:@"蔷薇开出的花朵没有芬芳、想念一个人、怀念一段伤、不流泪、不说话" style:YXAlertControllerStyleAlert];
 	YXAlertAction *cancel = [YXAlertAction actionWithTitle:@"考虑一下" style:1 handler:^(YXAlertAction * _Nonnull action) {
